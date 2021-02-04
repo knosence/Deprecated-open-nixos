@@ -27,7 +27,7 @@
   # Per-interface useDHCP will be mandatory in the future, so this generated config
   # replicates the default behaviour.
   networking = {
-    hostName = "kSep_NixLT"; # Define your hostname.
+    hostName = "PaulineSeays_NixLT"; # Define your hostname.
 
     # useDHCP = false;
     interfaces.enp1s0.useDHCP = true;

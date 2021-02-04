@@ -27,7 +27,7 @@
   # Per-interface useDHCP will be mandatory in the future, so this generated config
   # replicates the default behaviour.
   networking = {
-    hostName = "PaulineSeays_NixLT"; # Define your hostname.
+    hostName = "pauline_seays_NixLT"; # Define your hostname.
 
     # useDHCP = false;
     interfaces.enp1s0.useDHCP = true;
@@ -100,7 +100,7 @@
 
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.PaulineSeays = {
+  users.users.pauline_seays = {
     isNormalUser = true;
     shell = pkgs.fish;
     extraGroups = [ "wheel" "docker" "networkmanager" ]; # Enable ‘sudo’ for the user.
